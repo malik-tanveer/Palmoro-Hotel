@@ -16,7 +16,7 @@ import blogIm10 from "../images/blogImg10.png";
 import blogIm11 from "../images/blogImg11.png";
 import blogIm12 from "../images/blogImg12.png";
 
-// ================= BLOG IMAGES =================
+// Blog Images
 const blogImages = [
   blogIm1,
   blogImg2,
@@ -32,7 +32,7 @@ const blogImages = [
   blogIm12,
 ];
 
-// ================= BLOG DATA =================
+// Blog data
 const blogs = [
   {
     date: "APR 16",
@@ -108,13 +108,13 @@ const blogs = [
   },
 ];
 
-// ================= MERGE IMAGES =================
+// MERGE IMAGES
 const fullBlogs = blogs.map((blog, index) => ({
   ...blog,
   img: blogImages[index],
 }));
 
-// ================= ANIMATIONS =================
+// Animation
 const container = {
   hidden: { opacity: 0 },
   show: {
@@ -140,7 +140,7 @@ const BlogPage = () => {
   return (
     <div className="w-full font-serif bg-white">
 
-      {/* ================= HERO SECTION ================= */}
+      // Hero Section
       <div className="relative w-full h-[95vh] overflow-hidden">
 
         {/* Background Image */}
@@ -153,10 +153,10 @@ const BlogPage = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        {/* Overlay */}
+        // Overlay
         <div className="absolute inset-0 bg-black/50"></div>
 
-        {/* Hero Content */}
+        // Hero Content
         <div className="relative z-10 flex items-center justify-center h-full">
 
           <motion.h1
@@ -171,7 +171,7 @@ const BlogPage = () => {
         </div>
       </div>
 
-      {/* ================= BLOG CARDS ================= */}
+      // Blog Cards
       <motion.section
         variants={container}
         initial="hidden"

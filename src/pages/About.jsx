@@ -8,13 +8,12 @@ import {
   Bath,
 } from "lucide-react";
 import { motion } from "framer-motion";
-
-import aboutImg1 from "../images/aboutImg1.png";
-import aboutImg2 from "../images/aboutImg2.png";
-import aboutImg3 from "../images/aboutImg3.png";
-import aboutImg4 from "../images/aboutImg4.png";
-import aboutImg5 from "../images/aboutImg5.png";
-import aboutImg6 from "../images/aboutImg6.png";
+import aboutImg1 from "/aboutImg1.png";
+import aboutImg2 from "/aboutImg2.png";
+import aboutImg3 from "/aboutImg3.png";
+import aboutImg4 from "/aboutImg4.png";
+import aboutImg5 from "/aboutImg5.png";
+import aboutImg6 from "/aboutImg6.png";
 
 const HotelExperienceSection = () => {
   const timelineData = [

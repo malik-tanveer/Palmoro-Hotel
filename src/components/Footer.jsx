@@ -1,10 +1,11 @@
+// Footer
+
 const Footer = () => {
   return (
     <footer className="bg-[#0f172a] text-gray-300 px-8 py-12 mt-10">
       
       <div className="grid md:grid-cols-4 gap-8">
 
-        {/* Logo + About */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">PALMORO</h2>
           <p className="text-sm leading-6">
