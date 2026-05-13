@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import ContactImg from "../images/contactImg.png"
+import ContactImg from "/contactImg.png"
 
 const ContactSection = () => {
 

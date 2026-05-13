@@ -60,7 +60,6 @@ const FAQPage = () => {
   return (
     <div className="min-h-screen bg-[#f5f5f3] font-serif">
 
-      {/* ================= HERO SECTION ================= */}
       <section className="px-6 md:px-14 lg:px-24 pt-32 pb-24">
 
         <motion.div
@@ -81,12 +80,10 @@ const FAQPage = () => {
 
         </motion.div>
 
-        {/* line */}
         <div className="w-full h-[1px] bg-gray-300 mt-20"></div>
 
       </section>
 
-      {/* ================= FAQ SECTION ================= */}
       <section className="px-6 md:px-14 lg:px-24 pb-32">
 
         <div className="max-w-4xl mx-auto space-y-5">

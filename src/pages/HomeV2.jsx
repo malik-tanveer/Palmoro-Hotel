@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Calendar, Users, ChevronDown } from "lucide-react";
-import luxuryroom from "../images/luxuryRoom.png";
+import luxuryroom from "/luxuryRoom.png";
 
 const CombinedHero = () => {
   const [open, setOpen] = useState(null);
 
-  // ===== Animation Variants =====
+  // Animation Variants
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -26,7 +26,6 @@ const CombinedHero = () => {
   return (
     <div className="w-full">
 
-      {/* ===================== HERO 1 ===================== */}
       <div className="relative h-screen w-full overflow-hidden font-serif">
 
         <motion.div
@@ -124,7 +123,6 @@ const CombinedHero = () => {
         </div>
       </div>
 
-      {/* ===================== HERO 2 ===================== */}
       <motion.section
         variants={container}
         initial="hidden"

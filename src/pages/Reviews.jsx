@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaLinkedinIn, FaFacebookF, FaTwitter } from "react-icons/fa";
 
-// 1. Review Card Component
+// Review Card Component
 const ReviewCard = ({ name, review, date, image, Icon }) => (
   <motion.div
     whileHover={{ y: -10 }}

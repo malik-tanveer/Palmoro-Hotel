@@ -1,17 +1,18 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import LuxuryRooms from "../images/luxuryRoom.png";
 
-import room1 from "../images/room1.png";
-import room2 from "../images/room2.png";
-import room3 from "../images/room3.png";
-import room4 from "../images/room4.png";
-import room5 from "../images/room5.png";
-import room6 from "../images/room6.png";
-import room7 from "../images/room7.png";
-import room8 from "../images/room8.png";
-import room9 from "../images/room9.png";
-import room10 from "../images/room10.png";
+// Images
+import room1 from "/room1.png";
+import room2 from "/room2.png";
+import room3 from "/room3.png";
+import room4 from "/room4.png";
+import room5 from "/room5.png";
+import room6 from "/room6.png";
+import room7 from "/room7.png";
+import room8 from "/room8.png";
+import room9 from "/room9.png";
+import room10 from "/room10.png";
+import LuxuryRooms from "/luxuryRoom.png";
 
 const RoomGrid = () => {
   // Rooms Data

@@ -2,8 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, MapPin, Clock } from "lucide-react";
 
-/* ================= JOB DATA ================= */
-
+// Job Data
 const jobs = [
   {
     id: 1,
@@ -30,7 +29,7 @@ const jobs = [
     type: "FULL-TIME",
   },
 
-  /* ===== NEW JOBS ===== */
+// New Jobs
 
   {
     id: 4,
@@ -66,14 +65,13 @@ const jobs = [
   },
 ];
 
-/* ================= COMPONENT ================= */
+
+// Components
 
 const CareerPage = () => {
   return (
     <div className="bg-[#f8f5f2] overflow-hidden">
       
-      {/* ================= HERO SECTION ================= */}
-
       <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
         
         {/* Background Image */}
@@ -162,8 +160,6 @@ const CareerPage = () => {
           </div>
         </motion.div>
       </section>
-
-      {/* ================= JOB LISTINGS ================= */}
 
       <section className="max-w-6xl mx-auto px-4 py-24">
         
