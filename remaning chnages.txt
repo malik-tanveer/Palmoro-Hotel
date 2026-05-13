@@ -1,0 +1,14 @@
+palmoro Hotel project chnaging 
+
+Navbar 
+Footer
+Reviews
+Logo
+Home
+Content add a much more
+
+
+Components
+
+Sizing or Aligment
+
