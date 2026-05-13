@@ -6,7 +6,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import HomeV2 from "./pages/HomeV2";
 import About from "./pages/About";
-import News from "./pages/News";
 import Rooms from "./pages/Rooms";
 import Blog from "./pages/Blog";
 import Faqs from "./pages/Faqs";
@@ -23,7 +22,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home-v2" element={<HomeV2 />} />
         <Route path="/about" element={<About />} />
-        <Route path="/news" element={<News />} />
         <Route path="/rooms" element={<Rooms />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/faqs" element={<Faqs />} />
