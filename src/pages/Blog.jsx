@@ -1,22 +1,24 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import blogImage from "../images/luxuryRoom.png";
 
-import blogIm1 from "../images/blogImg1.png";
-import blogImg2 from "../images/blogImg2.png";
-import blogIm3 from "../images/blogImg3.png";
-import blogIm4 from "../images/blogImg4.png";
-import blogIm5 from "../images/blogImg5.png";
-import blogIm6 from "../images/blogImg6.png";
-import blogIm7 from "../images/blogImg7.png";
-import blogIm8 from "../images/blogImg8.png";
-import blogIm9 from "../images/blogImg9.png";
-import blogIm10 from "../images/blogImg10.png";
-import blogIm11 from "../images/blogImg11.png";
-import blogIm12 from "../images/blogImg12.png";
 
-// ================= BLOG IMAGES =================
+// Images
+import blogIm1 from "/blogImg1.png";
+import blogImg2 from "/blogImg2.png";
+import blogIm3 from "/blogImg3.png";
+import blogIm4 from "/blogImg4.png";
+import blogIm5 from "/blogImg5.png";
+import blogIm6 from "/blogImg6.png";
+import blogIm7 from "/blogImg7.png";
+import blogIm8 from "/blogImg8.png";
+import blogIm9 from "/blogImg9.png";
+import blogIm10 from "/blogImg10.png";
+import blogIm11 from "/blogImg11.png";
+import blogIm12 from "/blogImg12.png";
+import blogImage from "/luxuryRoom.png";
+
+// Call Blog Images By Map
 const blogImages = [
   blogIm1,
   blogImg2,
@@ -32,7 +34,7 @@ const blogImages = [
   blogIm12,
 ];
 
-// ================= BLOG DATA =================
+// Blog data
 const blogs = [
   {
     date: "APR 16",
@@ -108,13 +110,13 @@ const blogs = [
   },
 ];
 
-// ================= MERGE IMAGES =================
+// MERGE IMAGES
 const fullBlogs = blogs.map((blog, index) => ({
   ...blog,
   img: blogImages[index],
 }));
 
-// ================= ANIMATIONS =================
+// Animation
 const container = {
   hidden: { opacity: 0 },
   show: {
@@ -140,7 +142,7 @@ const BlogPage = () => {
   return (
     <div className="w-full font-serif bg-white">
 
-      {/* ================= HERO SECTION ================= */}
+ 
       <div className="relative w-full h-[95vh] overflow-hidden">
 
         {/* Background Image */}
@@ -153,10 +155,10 @@ const BlogPage = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        {/* Overlay */}
+    
         <div className="absolute inset-0 bg-black/50"></div>
 
-        {/* Hero Content */}
+       
         <div className="relative z-10 flex items-center justify-center h-full">
 
           <motion.h1
@@ -171,7 +173,6 @@ const BlogPage = () => {
         </div>
       </div>
 
-      {/* ================= BLOG CARDS ================= */}
       <motion.section
         variants={container}
         initial="hidden"
@@ -192,8 +193,6 @@ const BlogPage = () => {
               }}
               className="group bg-white overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.12)] transition-all duration-500"
             >
-
-              {/* ================= IMAGE ================= */}
               <div className="relative overflow-hidden">
 
                 <img
@@ -216,7 +215,6 @@ const BlogPage = () => {
                 </div>
               </div>
 
-              {/* ================= CONTENT ================= */}
               <div className="pt-7">
 
                 <p className="text-sm uppercase tracking-[0.25em] text-[#C56B51]">

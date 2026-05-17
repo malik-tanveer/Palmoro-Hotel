@@ -8,12 +8,10 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-white shadow-md px-6 py-4 flex items-center justify-between relative">
       
-      {/* Logo */}
       <div className="text-2xl font-bold tracking-wide text-blue-900">
         PALMORO
       </div>
 
-      {/* Desktop Links */}
       <div className="hidden lg:flex items-center gap-6 text-gray-700 font-medium">
         <Link className="hover:text-blue-900 transition" to="/">Home</Link>
         <Link className="hover:text-blue-900 transition" to="/home-v2">Home V2</Link>

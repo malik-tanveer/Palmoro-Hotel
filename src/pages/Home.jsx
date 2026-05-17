@@ -1,24 +1,27 @@
 import React from "react";
 import { motion } from "framer-motion";
-import heroImg from "../images/heroImg.png";
-import graph from "../images/graphImg.png";
 import Contact from "./Contact"
 
-import logo1 from "../images/logo1.png"; 
-import logo2 from "../images/logo2.png";
-import logo3 from "../images/logo3.png";
-import logo4 from "../images/logo4.png";
-import gallery1 from "../images/room1.png"
-import gallery2 from "../images/room2.png";
-import gallery3 from "../images/room3.png";
-import gallery4 from "../images/room4.png";
-import gallery5 from "../images/room5.png";
-import gallery6 from "../images/room6.png";
+// Images
+
+import heroImg from "/heroImg.png";
+import graph from "/graphImg.png";
+
+import logo1 from "/logo1.png";
+import logo2 from "/logo2.png";
+import logo3 from "/logo3.png";
+import logo4 from "/logo4.png";
+
+import gallery1 from "/room1.png";
+import gallery2 from "/room2.png";
+import gallery3 from "/room3.png";
+import gallery4 from "/room4.png";
+import gallery5 from "/room5.png";
+import gallery6 from "/room6.png";
 
 const Hero = () => {
   return (
     <>
-      {/* ================= HERO SECTION ================= */}
       <section className="min-h-screen overflow-x-hidden">
 
         <div className="w-full px-5 sm:px-6 md:px-12 pt-24 md:pt-28">
@@ -83,7 +86,6 @@ const Hero = () => {
         </motion.div>
       </section>
 
-      {/* ================= SECOND SECTION ================= */}
       <section className="relative bg-white px-6 md:px-16 py-20 md:py-28 text-gray-900">
 
         <div className="flex justify-between items-center mb-16">
@@ -173,7 +175,6 @@ const Hero = () => {
         </div>
       </section>
 
-      {/* ================= THIRD SECTION ================= */}
       <section className="px-6 md:px-16 py-10">
 
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row">
@@ -234,7 +235,7 @@ const Hero = () => {
         </motion.div>
       </section>
 
-      {/* ================= NEW LOGO & GALLERY SECTION ================= */}
+      //  NEW LOGO & GALLERY SECTION
       <section className="w-full px-6 md:px-16 py-16 bg-white overflow-hidden">
         <div className="max-w-[1400px] mx-auto">
           
